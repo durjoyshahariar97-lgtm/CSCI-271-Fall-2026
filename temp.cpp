@@ -1,0 +1,36 @@
+/******************************************************************************
+
+                              Online C++ Compiler.
+               Code, Compile, Run and Debug C++ program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+// Name: Durjoy
+// Assignment 3
+// Temperature
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int temperature;
+
+    cout << "Enter the temperature (F): ";
+    cin >> temperature;
+
+    if (temperature < 32) {
+        cout << "That's Freezing." << endl;
+    }
+    else if (temperature <= 59) {
+        cout << "That's Cold." << endl;
+    }
+    else if (temperature <= 75) {
+        cout << "That's Mild." << endl;
+    }
+    else {
+        cout << "That's Hot." << endl;
+    }
+
+    return 0;
+}
